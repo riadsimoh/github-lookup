@@ -1,12 +1,12 @@
 C'est une application React qui vous permet de trouver les utilisateurs de githup ainsi leur repos. 
-J'ai utilisé bootstrap pour la mise en forme et axiox pour les requetes http.
+J'ai utilisé bootstrap pour la mise en forme et axios pour les requetes http.
 C'est la première version. Pour le management des states, j'utilise seulement les props.
 Pour la deuxième version(juste après ce projet), je compte utiliser Context api et les hooks.
 
 ********************************************************************************************************
 
 It is a React application that allows you to find githup users and their repos.
-I used bootstrap and axiox for http requests.
+I used bootstrap and axios for http requests.
 This is the first version. For state management, I only use props.
 For the second version (right after this project), I plan to use Context api and hooks.
 
