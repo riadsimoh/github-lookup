@@ -3,3 +3,12 @@
   height: auto;
   border-radius: 50%;
 }
+
+.link {
+  font-size: 20px !important;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+}
+.link:hover {
+  color: rgb(218, 218, 218) !important;
+}

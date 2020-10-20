@@ -10,15 +10,17 @@ const Users = (props) => {
     return <Spinner />;
   } else {
     return (
-      <div className="row justify-content-around mt-5">
-        {users.map((user) => (
-          <UserItem
-            key={user.id}
-            login={user.login}
-            avatar={user.avatar_url}
-            html_url={user.html_url}
-          />
-        ))}
+      <div className="container">
+        <div className="row justify-content-around mt-5">
+          {users.map((user) => (
+            <UserItem
+              key={user.id}
+              login={user.login}
+              avatar={user.avatar_url}
+              html_url={user.html_url}
+            />
+          ))}
+        </div>
       </div>
     );
   }
