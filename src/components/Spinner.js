@@ -3,8 +3,12 @@ import spinner from './images/spinner.gif';
 
 const Spinner = () => {
   return (
-    <div>
-      <img className="d-block mx-auto" src={spinner} alt="spinner loading" />
+    <div className="">
+      <img
+        className="d-block mx-auto w-75"
+        src={spinner}
+        alt="spinner loading"
+      />
     </div>
   );
 };

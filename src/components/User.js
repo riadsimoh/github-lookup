@@ -16,7 +16,6 @@ class User extends Component {
       location,
       bio,
       name,
-      blog,
       public_repos,
       followers,
       following,
@@ -46,7 +45,7 @@ class User extends Component {
               <img
                 className="card-img-top d-block mx-auto"
                 src={avatar_url}
-                alt="Card image cap"
+                alt="avatar github"
               />
               <div class="card-body">
                 <h5 className="card-title">{login}</h5>

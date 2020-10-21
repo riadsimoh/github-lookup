@@ -11,7 +11,7 @@ class Search extends Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    if (this.state.search == '') {
+    if (this.state.search === '') {
       this.props.alertFun('Vous devez entrer un pseudo', 'text-danger');
     } else {
       this.props.searchUsers(this.state.search);
@@ -27,7 +27,7 @@ class Search extends Component {
     return (
       <div>
         <form onSubmit={this.onSubmit}>
-          <div className="form-group p-3 w-25 mx-auto ">
+          <div className="form-group p-3 w-50 mx-auto ">
             <input
               className="form-control"
               name="search"

@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
   return (
-    <nav className="navbar navbar-dark bg-info px-5">
-      <a className="navbar-brand " href="#">
+    <nav className="navbar navbar-dark px-5">
+      <Link className="navbar-brand " to="/">
         <i className="fab fa-github"></i> {props.title}
-      </a>
+      </Link>
       <div className=" ">
         <Link to="/" className=" px-2 link" href="#">
           Accueill
